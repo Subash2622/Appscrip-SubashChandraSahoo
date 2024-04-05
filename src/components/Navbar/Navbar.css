@@ -1,0 +1,128 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 0.01em solid gray;
+  height: 10em;
+  background-color: white;
+}
+.top-header {
+  background-color: black;
+  height: 2.5rem;
+  width: 100vw;
+  color: red;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: small;
+  font-weight: bold;
+  padding: 0px 20rem;
+}
+.top-header li {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.mid-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  top: 5px;
+}
+.mid-header ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.mid-header ul li {
+  cursor: pointer;
+  padding-right: 5px;
+}
+.mid-header ul li:last-child {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.menu-icon {
+  display: none;
+}
+.header-logo {
+  width: 200px;
+  padding-left: 8rem;
+}
+
+.logo-text {
+  padding-left: 7.5rem;
+  font-size: x-large;
+  font-weight: bold;
+  width: 200px;
+}
+.header-items {
+  padding-right: 100px;
+  margin-right: 100px;
+  width: 200px;
+}
+
+.header-tabs ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 4rem;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: black;
+  position: relative;
+  top: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-left: 60px;
+}
+.header-tabs ul > li:hover {
+  color: gray;
+}
+@media (max-width: 768px) {
+  .top-header {
+    width: auto;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .top-header li:last-child,
+  .top-header li:nth-child(2) {
+    display: none;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .header-items {
+    justify-content: space-between;
+    align-items: end;
+    width: auto;
+    padding: 0;
+    margin: 0;
+  }
+  .logo-text {
+    padding: 0;
+  }
+  .header-logo {
+    padding: 0;
+  }
+  .header-items ul li:nth-child(4),
+  .header-items ul li:nth-child(5) {
+    display: none;
+  }
+
+  .header-tabs {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    margin-right: 5px;
+  }
+}

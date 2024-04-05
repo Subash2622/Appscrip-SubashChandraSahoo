@@ -1,0 +1,51 @@
+.hero-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    color: #252020;
+}
+.hero-section h1{
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.hero-section p{
+    font-size: large;
+    line-height: 2em;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.hero-tab{
+    cursor: pointer;
+    display: none;
+    padding: 20px 0px 0px 20px;
+}
+.hero-tab p{
+    margin-right: 5px;
+}
+.hero-tab span{
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .hero-tab{
+        display: block;
+        display: flex;
+    }
+    .hero-tab p:hover{
+        color: gray;
+        cursor: pointer;
+    }
+    .hero-section h1{
+        margin-bottom: 10px;
+        font-size: 1.5em;
+    }
+    .hero-section p{
+        font-size: 1em;
+        text-align: center;
+    }
+}

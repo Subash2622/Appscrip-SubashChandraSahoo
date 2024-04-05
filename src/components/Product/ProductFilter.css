@@ -1,0 +1,26 @@
+button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 10px;
+    flex-direction: row-reverse;
+    font-weight: bold;
+}
+.filter-itmes{
+ padding: 10px;
+}
+ p{
+    margin-bottom: 5px;
+}
+input{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.line{
+    background-color: gray;
+    height: 1px;
+}
