@@ -51,11 +51,11 @@ const Navbar = () => {
         {/* header tabs */}
         <section className="header-tabs">
             <ul>
-                <li>shop</li>
-                <li>skills</li>
-                <li>stories</li>
-                <li>about</li>
-                <li>contact us</li>
+                <li>Shop</li>
+                <li>Skills</li>
+                <li>Stories</li>
+                <li>About</li>
+                <li>Contact Us</li>
             </ul>
         </section>
       </header>
