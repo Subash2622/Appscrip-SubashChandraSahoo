@@ -12,7 +12,6 @@ const Product = () => {
   };
   return (
     <main>
-      {/* Product Bar */}
       <section className="product-bar">
         <div className="side-filter-section">
           <p>3425 items</p>
