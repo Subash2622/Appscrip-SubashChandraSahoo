@@ -47,6 +47,8 @@ function ProductFilter() {
           <label htmlFor="color_blue">Blue</label><br />
           <input type="checkbox" id="color_green" name="color" value="green" />
           <label htmlFor="color_green">Green</label><br />
+          <input type="checkbox" id="color_green" name="color" value="green" />
+          <label htmlFor="color_violet">Violet</label><br />
         </div>
       )}
 
