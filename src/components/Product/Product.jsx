@@ -33,8 +33,8 @@ const Product = () => {
             <option>Recomended</option>
             <option>Newest first</option>
             <option>popular</option>
-            <option>price:high to low</option>
-            <option>price:low to high</option>
+            <option>High to Low</option>
+            <option>Low to High</option>
           </select>
         </div>
       </section>
