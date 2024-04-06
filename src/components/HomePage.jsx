@@ -9,7 +9,7 @@ const HomePage=()=> {
     <Navbar/>
     <HeroSection/>
     <Product/>
-   
+    <Footer/>
     </>
   )
 }
